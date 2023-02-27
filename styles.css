@@ -5,7 +5,7 @@
 body {
     font-family: 'Dancing Script', cursive;
     font-family: 'Press Start 2P', cursive;
-    background-color: #f5f5f5;
+    background-color: #312f2f70;
   }
   
   .container {
@@ -16,6 +16,8 @@ body {
     box-shadow: 0 2px 4px rgba(110, 241, 3, 0.452),
     0 3px 6px rgba(223, 209, 13, 0.719);
     animation: shadow-animation 2s linear infinite;
+    margin-top: 25px;
+    border-radius: 25px;
   }
   
   @keyframes shadow-animation {
@@ -61,22 +63,24 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.363);
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
   }
   
   input[type="text"] {
     padding: 10px;
     border: none;
     border-radius: 5px 0 0 5px;
-    width: 70%;
-    
-  }
-
-  input:hover{
-    
-  }
+    width: 90%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.13);
   
+    
+  }
 
-
+  
   button {
     background-color: #4CAF50;
     color: #fff;
@@ -84,7 +88,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px 15px 10px ;
     cursor: pointer;
-    margin: 5px 5px;
+    margin: 10px 5px;
   }
   
   li {
@@ -102,20 +106,20 @@ body {
     text-decoration: line-through;
     color: #aaa;
   }
-
+  
   @media (min-width: 768px) {
     .container{
         width: 750px;
     }
 }
 
- @media (min-width: 992px) {
+@media (min-width: 992px) {
     .container{
         width: 970px;
     }
 }
 
- @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .container{
         width: 1170px;
     }
